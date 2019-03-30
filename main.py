@@ -42,11 +42,16 @@ def main():
 
 	finish = ' '
 	daftarkota(kota)
+	print('============================================')
+	print('Tulis nama kota asal dan tujuan anda dengan \nhuruf kapital pada huruf pertama (contohnya: Bekasi)')
+	print('-------------------------------------------')
+	print('Please write your departure city and destination with a capital letter in the first letter (example: Bekasi)')
+	
 	start = input('Kota Anda Sekarang : ').strip()
 	start = start.lower()
 	start = ''.join(start[0].upper() + start[1:])
 	if start not in kota:
-		print('\n Kota Yang Anda Masukkan Salah')
+		print('\n Format Nama Kota Yang Anda Masukkan Salah atau Tidak Terdaftar')
 		
     
 	finish = input('Kota Tujuan Anda : ')
