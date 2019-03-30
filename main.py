@@ -21,7 +21,15 @@ def main():
 		'Cianjur' : {'Bandung' : 67},
 		'Garut' : {'Bandung' : 71, 'Tasikmalaya' : 53},
 		'Sumedang' : {'Bandung' : 76},
-		'Subang' : {'Bandung' : 54}	
+		'Subang' : {'Bandung' : 54},
+		'Purwokerto' : {'Magelang' : 145, 'Tasikmalaya' : 144},
+		'Magelang' : {'Semarang' : 72, 'Jogja' : 53, 'Surabaya' : 339, 'Purwokerto' : 145},
+		'Cirebon' : {'Tegal' : 88, 'Cikampek' : 146},
+		'Tegal' : {'Semarang' : 160, 'Cirebon' : 88},
+		'Semarang' : {'Jogja' : 129, 'Surabaya' : 348, 'Magelang' : 72, 'Tegal' : 160},
+		'Jogja' : {'Surabaya' : 324, 'Magelang' : 53, 'Semarang' : 129},
+		'Surabaya' : {'Malang' : 94, 'Magelang' : 339, 'Semarang' : 348, 'Jogja' : 324},		
+		'Malang' : {'Surabaya' : 94}
 	}
 
 	finish = ' '
