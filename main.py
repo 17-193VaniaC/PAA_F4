@@ -25,7 +25,7 @@ def main():
 	}
 
 	finish = ' '
-	daftarkota(finish,kota)
+	daftarkota(kota)
 	start = input('Kota Anda Sekarang : ').strip()
 	start = start.lower()
 	start = ''.join(start[0].upper() + start[1:])
