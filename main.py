@@ -3,9 +3,11 @@ from greedy import Greedy
 def main():
 	
 	print('============================================')
-	print('Program ini menunjukan kota-kota yang bisa \nanda kunjungi saat piknik antar kota dengan keluarga \ndan menunjukan kota-kota dengan jarak antar kota terpendek \nsehingga memudahkan anda untuk mendapatkan kota untuk singgah \natau memperbanyak tujuan piknik anda')
+	print('Program ini menunjukan kota-kota yang bisa \nanda kunjungi saat piknik antar kota dengan keluarga \ndan menunjukan kota-kota dengan jarak antar kota terpendek')
+	print('sehingga memudahkan anda untuk mendapatkan kota untuk singgah \natau memperbanyak tujuan piknik anda')
 	print('-------------------------------------------')
-	print('This program shows cities that can be visited \non your family trip and help you to get the list of cities that have shortest distance between them. \nSo by using this program you can get some cities for stop by \nor multiply your destination for your trip')
+	print('This program shows cities that can be visited \non your family trip and help you to get the list of cities that have shortest distance between them.')
+	print('So by using this program you can get some cities for stop by \nor multiply your destination for your trip')
 	print('============================================')
 	print('Berikut adalah daftar kota yang kami sediakan:\n(Here the list of the cities that we provide)\n')    
 	
