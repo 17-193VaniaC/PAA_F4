@@ -16,7 +16,12 @@ def main():
 		'Cikampek' : {'Bandung' : 80, 'Cirebon' : 146, 'Jakarta' : 76, 'Bekasi' : 41},
 		'Bogor' : {'Bandung' : 182, 'Jakarta' : 54},
 		'Bandung' : {'Tasikmalaya' : 124, 'Cimahi' : 14, 'Cianjur' : 67, 'Garut' : 71, 'Sumedang' : 76, 'Subang': 54, 'Cikampek' : 80, 'Bogor' : 182},
-			
+		'Tasikmalaya' : {'Purwokerto' : 144, 'Bandung' : 124, 'Garut' : 53},
+		'Cimahi' : {'Bandung' : 14},
+		'Cianjur' : {'Bandung' : 67},
+		'Garut' : {'Bandung' : 71, 'Tasikmalaya' : 53},
+		'Sumedang' : {'Bandung' : 76},
+		'Subang' : {'Bandung' : 54}	
 	}
 
 	finish = ' '
