@@ -9,6 +9,7 @@ def daftarkota(cityname):
 	citylist = []
 	count = 0
 	for i in cityname:
+		citylist.append('-')
 		citylist.append(i)
 		count+=1
 		if count%4 == 0:
